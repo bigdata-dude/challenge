@@ -1,19 +1,10 @@
-def rev_word(s):
-    words =[]
-    length = len(s)
-    spaces = [' ']
-    i =0
+def rev_words(s):
+    words = s.split(" ")
+    print(words)
+    newWords = words[::-1]
+    newSentence = ' '.join(newWords)
+    return (newSentence)
 
-    while i < length:
-        if s[i] not in spaces:
-
-            word_start = i
-
-            while i < length and s[i] not in space:
-                i +=1
-
-            words.append(s[word_start:i])
-
-        i +=1
-
-    return "".join(reverse(words))
+s= 'This is a line'
+res=(rev_words(s))
+print(res)
