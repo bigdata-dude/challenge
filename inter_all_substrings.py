@@ -5,3 +5,5 @@ for i in range (length):
     print ("=================")
     print (i, j)
     print (input_string[i:j+1])
+
+

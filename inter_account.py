@@ -30,9 +30,9 @@ class Checking(Account):
             self.balance = self.balance - amount - self.fee
 
 class Saving(Account):
-    def __init__(self,acctNumner,balance):
-        Account.__init__(self, acctNumber, balance):
-        Accout.__init__(acctNumber, balance)
+    def __init__(self,acctNumber,balance):
+        Account.__init__(self,acctNumber, balance)
+       # Accout.__init__(acctNumber, balance)
 
         def __str__(self):
             retStr="Account type: Savings\n"
