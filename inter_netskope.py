@@ -32,8 +32,8 @@ def common_prefix(list1):
                 common=common+str(list1[0][l])
             fcommon = common
     return (common)
-list1 = ["music","muse","mul","mut"]
-#list1 = ["miss", "mission","mistake", "misunderstand"]
+#list1 = ["music","muse","mul","mut"]
+list1 = ["miss", "mission","mistake", "misunderstand"]
 #list1 = ["dog","","car"]
 result = common_prefix(list1)
 if not result :

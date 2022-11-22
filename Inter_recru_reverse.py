@@ -6,4 +6,4 @@ def reverse(s):
 
 s = 'abcdefg'
 rev=reverse(s)
-print "The resule is:",rev
+print ("The resule is:"),rev
