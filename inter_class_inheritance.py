@@ -15,11 +15,10 @@ class B(A):
         return (super().test()*2)
 
 
-[v1,v2] = 2,3
+v1,v2 = 2,3
 
 p = A(v1,v2)
-
 q = B(v1,v2)
 
-print ("Output of A:{}",format(p.test()))
-print ("Output of B:{}",format(q.test()))
+#print ("Output1 of A:{}",format(p.test()))
+print ("Output2 of B:{}",format(q.test()))
